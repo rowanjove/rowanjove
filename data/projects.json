@@ -1,0 +1,112 @@
+[
+  {
+    "repo": "ProxyDuck",
+    "name": "ProxyDuck",
+    "featured": true,
+    "priority": 100,
+    "tagline": "Windows 按应用代理分流",
+    "description": "按进程将 Windows 应用的 TCP/UDP/DNS 流量精准分流至本地 SOCKS5 代理，自带桌面 UI 与 CLI。",
+    "tags": ["Rust", "Windows", "Network"],
+    "homepage": "https://github.com/rowanjove/ProxyDuck",
+    "release_url": "https://github.com/rowanjove/ProxyDuck/releases"
+  },
+  {
+    "repo": "INKREST",
+    "name": "栖墨 · INKREST",
+    "featured": true,
+    "priority": 95,
+    "tagline": "长篇小说创作与辅助写作工作台",
+    "description": "本地优先的长篇小说创作系统，集大纲策划、正文写作、多 Agent 协作生产与质量门禁于一体。",
+    "tags": ["Python", "Vue 3", "Electron", "AI Agent"],
+    "homepage": "https://github.com/rowanjove/INKREST",
+    "release_url": "https://github.com/rowanjove/INKREST/releases"
+  },
+  {
+    "repo": "Postcase-X",
+    "name": "X帖匣 · Postcase",
+    "featured": true,
+    "priority": 90,
+    "tagline": "将 X (Twitter) 推文与长文归档为 Markdown",
+    "description": "浏览器扩展，本地将 X 帖子、长文与配图整理为结构化 Markdown，支持一键复制与 ZIP 离线打包。",
+    "tags": ["JavaScript", "Chrome Extension", "Markdown"],
+    "homepage": "https://github.com/rowanjove/Postcase-X",
+    "release_url": "https://github.com/rowanjove/x-markdown-exporter/releases"
+  },
+  {
+    "repo": "Metaxy",
+    "name": "之间门 · Metaxy",
+    "featured": true,
+    "priority": 85,
+    "tagline": "私人跨设备轻量内容中转站",
+    "description": "打通多设备之间的文本、链接与文件即时中转，纯净安全无中继干扰。",
+    "tags": ["TypeScript", "Cross-Platform", "Tools"],
+    "homepage": "https://github.com/rowanjove/Metaxy",
+    "release_url": "https://github.com/rowanjove/Metaxy"
+  },
+  {
+    "repo": "Orthos",
+    "name": "Orthos",
+    "featured": true,
+    "priority": 80,
+    "tagline": "离线配置文件检查与安全修复工具",
+    "description": "基于 Rust 打造的离线配置校验引擎，支持 JSON/YAML/TOML/XML/INI/ENV 格式解析与安全自检。",
+    "tags": ["Rust", "CLI", "DevOps"],
+    "homepage": "https://github.com/rowanjove/Orthos",
+    "release_url": "https://github.com/rowanjove/Orthos"
+  },
+  {
+    "repo": "RunTelos",
+    "name": "RunTelos",
+    "featured": true,
+    "priority": 75,
+    "tagline": "Windows 本地脚本任务启动调度器",
+    "description": "面向 Windows 本地开发与日常运维的脚本快速启动与工作流管理工具。",
+    "tags": ["Rust", "TypeScript", "Desktop"],
+    "homepage": "https://github.com/rowanjove/RunTelos",
+    "release_url": "https://github.com/rowanjove/RunTelos"
+  },
+  {
+    "repo": "MarkClip",
+    "name": "MarkClip",
+    "featured": false,
+    "priority": 70,
+    "tagline": "网页正文与选区一键 Markdown 转换",
+    "description": "Chrome 扩展，快速提取网页主要内容或框选区域，转换为干净整洁的 Markdown 文本。",
+    "tags": ["TypeScript", "Chrome Extension"],
+    "homepage": "https://github.com/rowanjove/MarkClip",
+    "release_url": "https://github.com/rowanjove/MarkClip"
+  },
+  {
+    "repo": "CF-Nexarch",
+    "name": "CF-Nexarch",
+    "featured": false,
+    "priority": 65,
+    "tagline": "Windows 本地 Cloudflare 控制台",
+    "description": "在本地快速管理 Cloudflare 边缘服务、DNS 记录与 Workers 部署状态。",
+    "tags": ["TypeScript", "Cloudflare", "Desktop"],
+    "homepage": "https://github.com/rowanjove/CF-Nexarch",
+    "release_url": "https://github.com/rowanjove/CF-Nexarch"
+  },
+  {
+    "repo": "StackHome",
+    "name": "StackHome",
+    "featured": false,
+    "priority": 60,
+    "tagline": "Windows 本地文件整理与备份工作台",
+    "description": "基于 Rust 构建的高性能文件整理、重复去重与规则备份工具。",
+    "tags": ["Rust", "System", "File"],
+    "homepage": "https://github.com/rowanjove/StackHome",
+    "release_url": "https://github.com/rowanjove/StackHome"
+  },
+  {
+    "repo": "Personal-Site-Matrix",
+    "name": "Personal-Site-Matrix",
+    "featured": false,
+    "priority": 55,
+    "tagline": "21 套开源纯静态个人站模板矩阵",
+    "description": "包含主页、博客、导航与作品页的轻量纯静态模板合集，一键部署到 Cloudflare Pages。",
+    "tags": ["Static Site", "Cloudflare Pages", "Templates"],
+    "homepage": "https://github.com/rowanjove/Personal-Site-Matrix",
+    "release_url": "https://github.com/rowanjove/Personal-Site-Matrix"
+  }
+]

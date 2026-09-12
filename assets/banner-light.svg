@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+
+    <!-- Subtle Accent Gradient -->
+    <linearGradient id="accent-glow-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid-pattern-light" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#cbd5e1" stroke-width="0.75" stroke-opacity="0.7"/>
+      <circle cx="40" cy="40" r="1" fill="#94a3b8" fill-opacity="0.6"/>
+    </pattern>
+
+    <!-- Filter for subtle node highlight -->
+    <filter id="soft-glow-light" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title-light { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 46px; fill: #0f172a; letter-spacing: -0.5px; }
+    .slogan-light { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-weight: 400; font-size: 20px; fill: #475569; letter-spacing: 1.5px; }
+    .tags-light { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-weight: 600; font-size: 13px; fill: #0369a1; letter-spacing: 2px; }
+    .carbon-hex-light { fill: none; stroke: #94a3b8; stroke-width: 1.2; stroke-dasharray: 4 4; }
+    .bond-line-light { stroke: #64748b; stroke-width: 1.5; }
+    .node-purple-light { fill: #7c3aed; }
+    .node-blue-light { fill: #0284c7; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg-light)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#grid-pattern-light)"/>
+
+  <!-- Border Frame -->
+  <rect width="1198" height="318" x="1" y="1" rx="15" fill="none" stroke="#cbd5e1" stroke-width="1.2"/>
+
+  <!-- Ambient Subtle Glows -->
+  <circle cx="1020" cy="160" r="180" fill="#7c3aed" fill-opacity="0.05"/>
+  <circle cx="840" cy="200" r="140" fill="#0284c7" fill-opacity="0.05"/>
+
+  <!-- Left Side: Typography & Branding -->
+  <g transform="translate(80, 0)">
+    <!-- Status Terminal Accent -->
+    <g transform="translate(0, 72)">
+      <rect x="0" y="0" width="8" height="8" rx="2" fill="#7c3aed"/>
+      <text x="18" y="8" class="tags-light">BUILDING // CREATING // EXPERIMENTING</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="142" class="title-light">jove-R</text>
+
+    <!-- Core Philosophy -->
+    <text x="0" y="186" class="slogan-light">在硅碳之间，构建有趣的东西。</text>
+
+    <!-- Fields of Exploration -->
+    <g transform="translate(0, 230)">
+      <rect x="0" y="-18" width="480" height="32" rx="6" fill="#ffffff" fill-opacity="0.9"/>
+      <rect x="0" y="-18" width="480" height="32" rx="6" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="16" y="3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13px" font-weight="500" fill="#334155" letter-spacing="1px">
+        AI Tools  <tspan fill="#94a3b8">·</tspan>  Local-First  <tspan fill="#94a3b8">·</tspan>  Windows Systems  <tspan fill="#94a3b8">·</tspan>  Writing  <tspan fill="#94a3b8">·</tspan>  Games
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Side: Silicon-Carbon Conceptual Geometric Network -->
+  <g transform="translate(760, 40)">
+    <!-- Carbon Hexagonal Rings (Benzene/Graphene Topology) -->
+    <!-- Hexagon 1 -->
+    <polygon points="120,40 160,63 160,109 120,132 80,109 80,63" class="carbon-hex-light"/>
+    <!-- Hexagon 2 -->
+    <polygon points="200,86 240,109 240,155 200,178 160,155 160,109" class="carbon-hex-light"/>
+    <!-- Hexagon 3 -->
+    <polygon points="120,132 160,155 160,201 120,224 80,201 80,155" class="carbon-hex-light"/>
+    <!-- Hexagon 4 -->
+    <polygon points="280,132 320,155 320,201 280,224 240,201 240,155" class="carbon-hex-light"/>
+
+    <!-- Silicon Circuit / Network Lines -->
+    <path d="M 40,86 L 80,63 M 80,109 L 40,132 M 160,63 L 200,40" stroke="#0284c7" stroke-width="1.2" stroke-opacity="0.5"/>
+    <path d="M 120,40 L 120,10 M 240,109 L 280,86 M 320,155 L 360,132" stroke="#7c3aed" stroke-width="1.2" stroke-opacity="0.5"/>
+    <path d="M 160,201 L 200,224 M 200,224 L 240,201" stroke="#0284c7" stroke-width="1.5" stroke-opacity="0.6"/>
+    <path d="M 280,224 L 280,250 M 120,224 L 120,250" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2 2"/>
+
+    <!-- Accent Connecting Bonds -->
+    <line x1="80" y1="63" x2="120" y2="40" stroke="#7c3aed" stroke-width="2"/>
+    <line x1="160" y1="109" x2="200" y2="86" stroke="#0284c7" stroke-width="2"/>
+    <line x1="160" y1="155" x2="200" y2="178" stroke="#8b5cf6" stroke-width="2"/>
+    <line x1="240" y1="155" x2="280" y2="132" stroke="#0284c7" stroke-width="2"/>
+
+    <!-- Data Nodes / Lattice Vertices -->
+    <circle cx="120" cy="40" r="4" class="node-purple-light"/>
+    <circle cx="80" cy="63" r="3.5" fill="#64748b"/>
+    <circle cx="160" cy="63" r="3" fill="#94a3b8"/>
+    <circle cx="80" cy="109" r="3" fill="#94a3b8"/>
+    <circle cx="160" cy="109" r="4.5" class="node-blue-light"/>
+    <circle cx="120" cy="132" r="3.5" fill="#64748b"/>
+    <circle cx="200" cy="86" r="4" class="node-purple-light"/>
+    <circle cx="240" cy="109" r="3" fill="#94a3b8"/>
+    <circle cx="160" cy="155" r="4" class="node-blue-light"/>
+    <circle cx="200" cy="178" r="4" class="node-purple-light"/>
+    <circle cx="240" cy="155" r="4.5" class="node-blue-light"/>
+    <circle cx="280" cy="132" r="4" class="node-purple-light"/>
+    <circle cx="320" cy="155" r="3" fill="#64748b"/>
+    <circle cx="240" cy="201" r="3" fill="#94a3b8"/>
+    <circle cx="280" cy="224" r="3.5" fill="#64748b"/>
+    <circle cx="120" cy="224" r="3" fill="#94a3b8"/>
+    <circle cx="80" cy="201" r="3" fill="#94a3b8"/>
+
+    <!-- Coordinate Marks & Engineering Annotations -->
+    <text x="290" y="244" font-family="monospace" font-size="9px" fill="#64748b">Si-14</text>
+    <text x="65" y="50" font-family="monospace" font-size="9px" fill="#64748b">C-06</text>
+    <text x="330" y="152" font-family="monospace" font-size="8px" fill="#0284c7" fill-opacity="0.9">0x7F</text>
+  </g>
+
+  <!-- Bottom Accent Bar -->
+  <rect x="0" y="316" width="1200" height="4" fill="url(#accent-glow-light)"/>
+</svg>
