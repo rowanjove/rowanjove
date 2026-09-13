@@ -101,11 +101,11 @@
 ## 最近在折腾
 
 <!-- RECENT_ACTIVITY:START -->
+- **[Metaxy](https://github.com/rowanjove/Metaxy)** — 私人跨设备轻量内容中转站 · `v3.0.1` (2026-09-13)
+- **[Pixkin](https://github.com/rowanjove/Pixkin)** — 一只有自己小脾气的 AI 桌面伙伴，支持对话、角色孵化和直播提醒。 · `v1.3.0` (2026-09-13)
+- **[worldara](https://github.com/rowanjove/worldara)** — Worldbuilding, Canon and writing w... · `v1.0.0` (2026-09-13)
 - **[RunTelos](https://github.com/rowanjove/RunTelos)** — Windows 本地脚本任务启动调度器 · `v0.9.1` (2026-09-10)
 - **[MarkClip](https://github.com/rowanjove/MarkClip)** — 网页正文与选区一键 Markdown 转换 · `v1.5.0` (2026-09-09)
-- **[Postcase-X](https://github.com/rowanjove/Postcase-X)** — 将 X (Twitter) 推文与长文归档为 Markdown · `v1.8.1` (2026-09-08)
-- **[Metaxy](https://github.com/rowanjove/Metaxy)** — 私人跨设备轻量内容中转站 · `v2.0.2` (2026-09-03)
-- **[Orthos](https://github.com/rowanjove/Orthos)** — 离线配置文件检查与安全修复工具 · `v1.1.0` (2026-09-02)
 <!-- RECENT_ACTIVITY:END -->
 
 ---
