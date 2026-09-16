@@ -101,11 +101,11 @@
 ## 最近在折腾
 
 <!-- RECENT_ACTIVITY:START -->
+- **[INKREST](https://github.com/rowanjove/INKREST)** — 长篇小说创作与辅助写作工作台 · `v2.1.0` (2026-09-15)
 - **[WOL](https://github.com/rowanjove/WOL)** — Wheel Of Life(游戏人生)——中文为主的随机人生与命运转... · `v0.3.2` (2026-09-14)
 - **[ProxyDuck](https://github.com/rowanjove/ProxyDuck)** — Windows 按应用代理分流 · `v1.1.0` (2026-09-14)
 - **[CF-Nexarch](https://github.com/rowanjove/CF-Nexarch)** — Windows 本地 Cloudflare 控制台 · `v0.2.0` (2026-09-13)
 - **[Pixkin](https://github.com/rowanjove/Pixkin)** — 一只有自己小脾气的 AI 桌面伙伴，支持对话、角色孵化和直播提醒。 · `v1.5.0` (2026-09-13)
-- **[Orthos](https://github.com/rowanjove/Orthos)** — 离线配置文件检查与安全修复工具 · `v1.1.0` (2026-09-13)
 <!-- RECENT_ACTIVITY:END -->
 
 ---
