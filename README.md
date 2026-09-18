@@ -8,150 +8,114 @@
 
 # jove-R
 
-**在硅碳之间，构建有趣的东西。**
+**Local-first software for personal computing.**  
+为个人计算环境构建本地优先的软件。
 
-`AI Tools` · `Local-First` · `Windows Systems` · `Writing` · `Games`
+Windows · Rust · Tauri · Personal Data · AI-assisted Workflows
 
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3000&pause=1500&color=8B5CF6&center=true&vCenter=true&width=480&lines=%E5%9C%A8%E7%A1%85%E7%A2%B3%E4%B9%8B%E9%97%B4%EF%BC%8C%E6%9E%84%E5%BB%BA%E6%9C%89%E8%B6%A3%E7%9A%84%E4%B8%9C%E8%A5%BF%E3%80%82;AI+%E6%98%AF%E5%B7%A5%E5%85%B7%EF%BC%8C%E4%B8%8D%E6%98%AF%E7%9B%AE%E7%9A%84%E3%80%82;%E6%8A%8A%E2%80%9C%E4%B8%8D%E5%A6%82%E5%81%9A%E5%87%BA%E6%9D%A5%E8%AF%95%E8%AF%95%E2%80%9D%E7%9A%84%E6%83%B3%E6%B3%95%E5%81%9A%E6%88%90%E5%B7%A5%E5%85%B7%E3%80%82;Build.+Break.+Refine." alt="Typing Subtitle" />
-</p>
+[GitHub](https://github.com/rowanjove) &nbsp;·&nbsp; [X (Twitter)](https://x.com/rowanjove)
 
 </div>
 
 ---
 
-## 关于我
+## Selected Work
 
-喜欢研究 AI、游戏、系统与网络底层，热衷于把脑子里那些“不如做出来试试”的想法敲成能够稳定运行的实体工具。
+### 🖋️ [INKREST](https://github.com/rowanjove/INKREST)
+> **Local-first long-form writing workspace with multi-agent production, memory and quality control.**
 
-目前主要专注于独立开发、本地优先（Local-First）桌面应用、多 Agent 协作工作流、Windows 网络实用程序与 Cloudflare 边缘计算。
-
-> 在硅碳之间，构建有趣的东西。
+- **Core Capabilities**: End-to-end long-form novel creation environment combining outline planning, persistent character/setting memory recall, automated chapter drafting, and pre-acceptance consistency checks (continuity, banned terms, and logic contradictions).
+- **Architecture**: Modular workflow engine with isolated drafting and review stages, local SQLite storage, and extensible plugin boundaries.
+- **Tech Stack**: `Python` · `FastAPI` · `Vue 3` · `Electron` · `SQLite`
+- **Links**: [Source](https://github.com/rowanjove/INKREST) · [Releases](https://github.com/rowanjove/INKREST/releases)
 
 ---
 
-## 精选作品
+### 🧭 [Browsory](https://github.com/rowanjove/Browsory)
+> **Local-first browser history archive, search and personal analytics desktop app.**
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🦆 <a href="https://github.com/rowanjove/ProxyDuck">ProxyDuck</a></h3>
-      <p><b>Windows 按应用代理分流</b></p>
-      <p>按进程将 Windows 应用的 TCP/UDP/DNS 流量精准分流至本地 SOCKS5 代理，自带现代化桌面 UI 与命令行工具。</p>
-      <p><code>Rust</code> · <code>Windows</code> · <code>Network</code></p>
-      <p><a href="https://github.com/rowanjove/ProxyDuck">GitHub 源码 →</a> &nbsp;|&nbsp; <a href="https://github.com/rowanjove/ProxyDuck/releases">下载 Release</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🖋️ <a href="https://github.com/rowanjove/INKREST">栖墨 · INKREST</a></h3>
-      <p><b>长篇小说创作与辅助写作工作台</b></p>
-      <p>本地优先的长篇小说创作生产系统，集大纲策划、正文写作、多 Agent 协作生产、长篇记忆召回与质量门禁于一体。</p>
-      <p><code>Python</code> · <code>FastAPI</code> · <code>Vue 3</code> · <code>Electron</code></p>
-      <p><a href="https://github.com/rowanjove/INKREST">GitHub 源码 →</a> &nbsp;|&nbsp; <a href="https://github.com/rowanjove/INKREST/releases">下载 Windows 版</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📦 <a href="https://github.com/rowanjove/Postcase-X">X帖匣 · Postcase</a></h3>
-      <p><b>将 X (Twitter) 推文与长文归档为 Markdown</b></p>
-      <p>Chrome/Edge 扩展，在浏览器本地将 X 帖子、作者线程与长文整理为结构化 Markdown，支持一键复制与内嵌图片 ZIP 打包。</p>
-      <p><code>JavaScript</code> · <code>Chrome Extension</code> · <code>Markdown</code></p>
-      <p><a href="https://github.com/rowanjove/Postcase-X">GitHub 源码 →</a> &nbsp;|&nbsp; <a href="https://chromewebstore.google.com/detail/x-markdown-exporter/alicknocngkldhijfocddaepnfpgjlee">Chrome 商店</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🚪 <a href="https://github.com/rowanjove/Metaxy">之间门 · Metaxy</a></h3>
-      <p><b>私人跨设备轻量内容中转站</b></p>
-      <p>打通个人多设备之间的文本、剪贴板与文件即时中转，纯净轻量，保障数据本地可控与快速流转。</p>
-      <p><code>TypeScript</code> · <code>Cross-Platform</code> · <code>Tools</code></p>
-      <p><a href="https://github.com/rowanjove/Metaxy">GitHub 源码 →</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/rowanjove/Orthos">Orthos</a></h3>
-      <p><b>离线配置文件检查与安全修复工具</b></p>
-      <p>基于 Rust 打造的离线配置校验引擎，支持 JSON、YAML、TOML、XML、INI、ENV 格式语法解析与安全自检修复。</p>
-      <p><code>Rust</code> · <code>CLI</code> · <code>DevOps</code></p>
-      <p><a href="https://github.com/rowanjove/Orthos">GitHub 源码 →</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/rowanjove/RunTelos">RunTelos</a></h3>
-      <p><b>Windows 本地脚本任务启动调度器</b></p>
-      <p>面向 Windows 本地开发与日常系统运维的脚本快速启动器，统一管理日常批处理、PowerShell 与自动化任务。</p>
-      <p><code>Rust</code> · <code>TypeScript</code> · <code>Desktop</code></p>
-      <p><a href="https://github.com/rowanjove/RunTelos">GitHub 源码 →</a></p>
-    </td>
-  </tr>
-</table>
+- **Core Capabilities**: Incremental offline ingestion from Chromium and Firefox profiles, full-text indexing via SQLite FTS5, temporal browsing pattern analytics, and zero-telemetry local data ownership.
+- **Architecture**: Rust/Tauri native backend with asynchronous profile readers, isolated WAL checkpoint handling, and responsive desktop frontend.
+- **Tech Stack**: `Rust` · `Tauri` · `SQLite` · `FTS5` · `Windows Desktop`
+- **Links**: [Source](https://github.com/rowanjove/Browsory) · [Releases](https://github.com/rowanjove/Browsory/releases)
+
+---
+
+### 🦆 [ProxyDuck](https://github.com/rowanjove/ProxyDuck)
+> **Windows per-application network routing and diagnostic tool.**
+
+- **Core Capabilities**: Granular per-process TCP/UDP/DNS routing into local SOCKS5 proxies without global system proxy pollution; includes real-time connection diagnostic logs and automated failover rules.
+- **Architecture**: Lightweight Windows kernel/WFP driver integration paired with a dedicated background daemon and interactive desktop UI.
+- **Tech Stack**: `Rust` · `Windows` · `Network` · `Desktop` · `CLI`
+- **Links**: [Source](https://github.com/rowanjove/ProxyDuck) · [Releases](https://github.com/rowanjove/ProxyDuck/releases)
+
+---
+
+### 🕸️ [Loomark](https://github.com/rowanjove/Loomark)
+> **Local research crawler and web archive for structured personal knowledge collection.**
+
+- **Core Capabilities**: Dual-engine extraction pipeline combining `curl_cffi` for fast static HTTP requests and Playwright for JavaScript-heavy dynamic pages; includes scheduled site monitoring, snapshot diffing, and structured local indexing.
+- **Architecture**: Decoupled task scheduler with configurable concurrency, rate limiting, and structured JSON/Markdown persistence.
+- **Tech Stack**: `Python` · `Playwright` · `curl_cffi` · `Local-first`
+- **Links**: [Source](https://github.com/rowanjove/Loomark) · [Releases](https://github.com/rowanjove/Loomark/releases)
+
+---
+
+## Small Tools
+
+Focused utilities designed for specific friction points in daily personal computing.
+
+| Tool | Purpose | Platform / Stack | Links |
+|---|---|---|---|
+| **[RunTelos](https://github.com/rowanjove/RunTelos)** | Lightweight Windows task launcher for scripts, batch files and local utilities | Windows · Rust · Desktop | [Source](https://github.com/rowanjove/RunTelos) · [Releases](https://github.com/rowanjove/RunTelos/releases) |
+| **[Metaxy](https://github.com/rowanjove/Metaxy)** | Personal cross-device relay for temporary clipboard text and file transfer | Web · Cloudflare · TS | [Source](https://github.com/rowanjove/Metaxy) |
+| **[StackHome](https://github.com/rowanjove/StackHome)** | Local file workspace for rule-based organization, deduplication and backup | Windows · Rust · Desktop | [Source](https://github.com/rowanjove/StackHome) · [Releases](https://github.com/rowanjove/StackHome/releases) |
+| **[Orthos](https://github.com/rowanjove/Orthos)** | Offline configuration validator and fixer for JSON, YAML, TOML, XML, INI, ENV | CLI · Rust | [Source](https://github.com/rowanjove/Orthos) · [Releases](https://github.com/rowanjove/Orthos/releases) |
+| **[LANDrop](https://github.com/rowanjove/LANDrop)** | Zero-configuration local network file and text transfer utility | Local Network · Go | [Source](https://github.com/rowanjove/LANDrop) |
+| **[MarkClip](https://github.com/rowanjove/MarkClip)** | Browser extension converting web pages, selected areas, or articles into clean Markdown | Chrome Extension · JS | [Source](https://github.com/rowanjove/MarkClip) |
+| **[Postcase-X](https://github.com/rowanjove/Postcase-X)** | Saves X (Twitter) posts, threads, and articles as structured Markdown with ZIP media archive | Chrome Extension · JS | [Source](https://github.com/rowanjove/Postcase-X) · [Web Store](https://chromewebstore.google.com/detail/x-markdown-exporter/alicknocngkldhijfocddaepnfpgjlee) |
+| **[CF-Nexarch](https://github.com/rowanjove/CF-Nexarch)** | Local Windows console for Cloudflare Workers, DNS, and edge service management | Windows · Desktop | [Source](https://github.com/rowanjove/CF-Nexarch) |
+| **[WebVault](https://github.com/rowanjove/WebVault)** | Local web archive and digital asset preservation tool | Local-first · Storage | [Source](https://github.com/rowanjove/WebVault) |
+
+---
+
+## Currently Building
+
+Active focus areas under continuous iterative development:
+
+- **[INKREST](https://github.com/rowanjove/INKREST)** — Long-form memory consistency, plugin ecosystem architecture, and automated editorial workflows.
+- **[Browsory](https://github.com/rowanjove/Browsory)** — Unified multi-browser schema migration, FTS5 query optimization, and offline personal analytics.
+- **[Loomark](https://github.com/rowanjove/Loomark)** — Incremental crawl policies, structured schema extractors, and automated task recovery.
+
+---
+
+## Principles
+
+- **Local-first**: Personal data remains strictly on local storage in transparent, non-proprietary formats (SQLite, Markdown, JSON).
+- **Useful before intelligent**: Reliable software engineering takes precedence over hype; AI serves as an augmentation layer rather than a gimmick.
+- **Small tools, clear purpose**: Clean boundaries, single responsibilities, and straightforward solving of concrete personal computing problems.
+- **Maintenance depth > Repository count**: Prioritize long-term polish, stability, test coverage, and documentation over publishing high volumes of transient repositories.
+
+---
 
 <details>
-<summary><b>查看更多开源项目与实验工具 (More Projects)</b></summary>
+<summary><b>Labs & Experiments (探索性原型)</b></summary>
 <br>
 
-- **[MarkClip](https://github.com/rowanjove/MarkClip)** — Chrome 扩展：一键将网页正文、框选区域或整页内容提取转换为干净的 Markdown
-- **[CF-Nexarch](https://github.com/rowanjove/CF-Nexarch)** — Windows 本地 Cloudflare 控制台，快速调度 Workers、DNS 与边缘服务
-- **[StackHome](https://github.com/rowanjove/StackHome)** — 基于 Rust 的 Windows 本地文件智能整理、去重与规则备份工作台
-- **[Personal-Site-Matrix](https://github.com/rowanjove/Personal-Site-Matrix)** — 21 套开源纯静态个人站模板矩阵，包含主页、博客、导航页，支持一键部署到 Cloudflare Pages
-- **[LANDrop](https://github.com/rowanjove/LANDrop)** — 高性能局域网多设备文件与文本无感即时分享工具
-- **[WOL](https://github.com/rowanjove/WOL)** — Wheel Of Life 游戏人生：中文纯前端随机人生与命运转盘 Web 实验小游戏
+Exploratory prototypes and early concept verifications:
+
+- **[WOL](https://github.com/rowanjove/WOL)** — Web-based random life simulation and destiny wheel experiment.
+- **[Worldara](https://github.com/rowanjove/Worldara)** — Worldbuilding and lore management tool for long-form narrative design.
+- **[PanNexus](https://github.com/rowanjove/PanNexus)** — Multi-source federation and resource aggregation search prototype.
+- **[MediaFlow](https://github.com/rowanjove/MediaFlow)** — Lightweight multi-platform media stream parser and downloader.
+- **[Pixkin](https://github.com/rowanjove/Pixkin)** — AI desktop companion prototype with character incubation and state management.
+- **[Personal-Site-Matrix](https://github.com/rowanjove/Personal-Site-Matrix)** — 21 static website templates for personal profiles, blogs, and link trees.
 
 </details>
 
 ---
 
-## 最近在折腾
+## Elsewhere
 
-<!-- RECENT_ACTIVITY:START -->
-- **[StackHome](https://github.com/rowanjove/StackHome)** — Windows 本地文件整理与备份工作台 · `v0.6.2` (2026-09-18)
-- **[Orthos](https://github.com/rowanjove/Orthos)** — 离线配置文件检查与安全修复工具 · `v1.1.0` (2026-09-18)
-- **[Loomark](https://github.com/rowanjove/Loomark)** — 个人研究、知识沉淀与网站监控的桌面级智能内容采集平台 · `v0.1.0` (2026-09-18)
-- **[MediaFlow](https://github.com/rowanjove/MediaFlow)** — 现代化轻量多平台媒体直链解析与下载引擎 · `v1.0.0` (2026-09-18)
-- **[PanNexus](https://github.com/rowanjove/PanNexus)** — 新一代联邦多网盘与磁力资源聚合索引引擎 · `v1.0.0` (2026-09-18)
-<!-- RECENT_ACTIVITY:END -->
-
----
-
-## 常用技术与工具
-
-真实用于已有开源项目的技术栈，不列未实际落地的技能：
-
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=rust,py,ts,js,vue,electron,tauri,cloudflare,nodejs,git,linux,windows&theme=dark" alt="Tech Stack" />
-  </a>
-</p>
-
----
-
-## GitHub Activity
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=rowanjove&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=rowanjove&show_icons=true&theme=default&hide_border=true&bg_color=00000000">
-    <img alt="rowanjove's GitHub Stats" src="https://github-stats-extended.vercel.app/api?username=rowanjove&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=rowanjove&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=rowanjove&layout=compact&theme=default&hide_border=true&bg_color=00000000">
-    <img alt="Top Languages" src="https://github-stats-extended.vercel.app/api/top-langs/?username=rowanjove&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000">
-  </picture>
-</div>
-
----
-
-## 贡献轨迹
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rowanjove/rowanjove/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rowanjove/rowanjove/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/rowanjove/rowanjove/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
-</div>
-
----
-
-## 找到我
-
-- **GitHub**：[@rowanjove](https://github.com/rowanjove)
-- **X (Twitter)**：[@rowanjove](https://x.com/rowanjove)
+- **GitHub**: [@rowanjove](https://github.com/rowanjove)
+- **X (Twitter)**: [@rowanjove](https://x.com/rowanjove)
