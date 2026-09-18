@@ -13,7 +13,7 @@
 
 Windows · Rust · Tauri · Personal Data · AI-assisted Workflows
 
-[GitHub](https://github.com/rowanjove) &nbsp;·&nbsp; [X (Twitter)](https://x.com/rowanjove)
+[rowanjove.top](https://rowanjove.top) &nbsp;·&nbsp; [X (Twitter)](https://x.com/rowanjove)
 
 </div>
 
@@ -21,43 +21,43 @@ Windows · Rust · Tauri · Personal Data · AI-assisted Workflows
 
 ## Selected Work
 
-### 🖋️ [INKREST](https://github.com/rowanjove/INKREST)
-> **Local-first long-form writing workspace with multi-agent production, memory and quality control.**
+### [INKREST](https://github.com/rowanjove/INKREST)
 
-- **Core Capabilities**: End-to-end long-form novel creation environment combining outline planning, persistent character/setting memory recall, automated chapter drafting, and pre-acceptance consistency checks (continuity, banned terms, and logic contradictions).
-- **Architecture**: Modular workflow engine with isolated drafting and review stages, local SQLite storage, and extensible plugin boundaries.
-- **Tech Stack**: `Python` · `FastAPI` · `Vue 3` · `Electron` · `SQLite`
-- **Links**: [Source](https://github.com/rowanjove/INKREST) · [Releases](https://github.com/rowanjove/INKREST/releases)
+A local-first long-form writing workspace designed for authors. Integrates outline planning, draft production, character and setting memory retrieval, and pre-commit checks for banned terms and timeline continuity.
 
----
+[![INKREST Workspace](https://raw.githubusercontent.com/rowanjove/INKREST/main/docs/images/readme-overview.png)](https://github.com/rowanjove/INKREST)
 
-### 🧭 [Browsory](https://github.com/rowanjove/Browsory)
-> **Local-first browser history archive, search and personal analytics desktop app.**
-
-- **Core Capabilities**: Incremental offline ingestion from Chromium and Firefox profiles, full-text indexing via SQLite FTS5, temporal browsing pattern analytics, and zero-telemetry local data ownership.
-- **Architecture**: Rust/Tauri native backend with asynchronous profile readers, isolated WAL checkpoint handling, and responsive desktop frontend.
-- **Tech Stack**: `Rust` · `Tauri` · `SQLite` · `FTS5` · `Windows Desktop`
-- **Links**: [Source](https://github.com/rowanjove/Browsory) · [Releases](https://github.com/rowanjove/Browsory/releases)
+`Python` · `FastAPI` · `Vue 3` · `Electron` · `SQLite` &nbsp;|&nbsp; [Source](https://github.com/rowanjove/INKREST) · [Releases](https://github.com/rowanjove/INKREST/releases)
 
 ---
 
-### 🦆 [ProxyDuck](https://github.com/rowanjove/ProxyDuck)
-> **Windows per-application network routing and diagnostic tool.**
+### [Browsory](https://github.com/rowanjove/Browsory)
 
-- **Core Capabilities**: Granular per-process TCP/UDP/DNS routing into local SOCKS5 proxies without global system proxy pollution; includes real-time connection diagnostic logs and automated failover rules.
-- **Architecture**: Lightweight Windows kernel/WFP driver integration paired with a dedicated background daemon and interactive desktop UI.
-- **Tech Stack**: `Rust` · `Windows` · `Network` · `Desktop` · `CLI`
-- **Links**: [Source](https://github.com/rowanjove/ProxyDuck) · [Releases](https://github.com/rowanjove/ProxyDuck/releases)
+Local-first desktop application that incrementally imports browsing history from Chromium-based profiles (Chrome, Edge, Brave). Indexes visit logs locally with SQLite FTS5 for sub-millisecond search and timeline analytics without sending data upstream.
+
+[![Browsory Interface](https://raw.githubusercontent.com/rowanjove/Browsory/main/docs/screenshots/history-zh.png)](https://github.com/rowanjove/Browsory)
+
+`Rust` · `Tauri` · `SQLite` · `FTS5` · `Windows` &nbsp;|&nbsp; [Source](https://github.com/rowanjove/Browsory) · [Releases](https://github.com/rowanjove/Browsory/releases)
 
 ---
 
-### 🕸️ [Loomark](https://github.com/rowanjove/Loomark)
-> **Local research crawler and web archive for structured personal knowledge collection.**
+### [ProxyDuck](https://github.com/rowanjove/ProxyDuck)
 
-- **Core Capabilities**: Dual-engine extraction pipeline combining `curl_cffi` for fast static HTTP requests and Playwright for JavaScript-heavy dynamic pages; includes scheduled site monitoring, snapshot diffing, and structured local indexing.
-- **Architecture**: Decoupled task scheduler with configurable concurrency, rate limiting, and structured JSON/Markdown persistence.
-- **Tech Stack**: `Python` · `Playwright` · `curl_cffi` · `Local-first`
-- **Links**: [Source](https://github.com/rowanjove/Loomark) · [Releases](https://github.com/rowanjove/Loomark/releases)
+A Windows utility for per-application network routing. Intercepts and directs TCP, UDP, and DNS traffic of selected processes into a local SOCKS5 proxy, complete with a desktop GUI, live connection diagnostic logs, and a CLI daemon.
+
+[![ProxyDuck Desktop](https://raw.githubusercontent.com/rowanjove/ProxyDuck/main/docs/images/proxyduck-overview.png)](https://github.com/rowanjove/ProxyDuck)
+
+`Rust` · `Windows` · `Desktop` · `CLI` &nbsp;|&nbsp; [Source](https://github.com/rowanjove/ProxyDuck) · [Releases](https://github.com/rowanjove/ProxyDuck/releases)
+
+---
+
+### [Loomark](https://github.com/rowanjove/Loomark)
+
+Desktop research crawler and web archival platform. Leverages `curl_cffi` for fast static extraction and Playwright for dynamic JavaScript pages, featuring automated site monitoring, snapshot history, and local structured search.
+
+[![Loomark Dashboard](https://raw.githubusercontent.com/rowanjove/Loomark/main/docs/images/01_dashboard.png)](https://github.com/rowanjove/Loomark)
+
+`Python` · `Playwright` · `curl_cffi` · `Tauri` &nbsp;|&nbsp; [Source](https://github.com/rowanjove/Loomark) · [Releases](https://github.com/rowanjove/Loomark/releases)
 
 ---
 
@@ -84,7 +84,7 @@ Focused utilities designed for specific friction points in daily personal comput
 Active focus areas under continuous iterative development:
 
 - **[INKREST](https://github.com/rowanjove/INKREST)** — Long-form memory consistency, plugin ecosystem architecture, and automated editorial workflows.
-- **[Browsory](https://github.com/rowanjove/Browsory)** — Unified multi-browser schema migration, FTS5 query optimization, and offline personal analytics.
+- **[Browsory](https://github.com/rowanjove/Browsory)** — Unified Chromium-family schema migration, FTS5 query optimization, and offline personal analytics.
 - **[Loomark](https://github.com/rowanjove/Loomark)** — Incremental crawl policies, structured schema extractors, and automated task recovery.
 
 ---
@@ -117,5 +117,5 @@ Exploratory prototypes and early concept verifications:
 
 ## Elsewhere
 
-- **GitHub**: [@rowanjove](https://github.com/rowanjove)
+- **Website**: [rowanjove.top](https://rowanjove.top)
 - **X (Twitter)**: [@rowanjove](https://x.com/rowanjove)
