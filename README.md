@@ -23,9 +23,9 @@ Windows · Rust · Tauri · Personal Data · AI-assisted Workflows
 
 ### [INKREST](https://github.com/rowanjove/INKREST)
 
-A local-first long-form writing workspace designed for authors. Integrates outline planning, draft production, character and setting memory retrieval, and pre-commit checks for banned terms and timeline continuity.
+Local-first long-form writing workspace. Combines outline planning, draft production, character and setting memory retrieval, and pre-commit checks for banned terms and narrative continuity.
 
-[![INKREST Workspace](https://raw.githubusercontent.com/rowanjove/INKREST/main/docs/images/readme-overview.png)](https://github.com/rowanjove/INKREST)
+[![INKREST](assets/hero-inkrest.png)](https://github.com/rowanjove/INKREST)
 
 `Python` · `FastAPI` · `Vue 3` · `Electron` · `SQLite` &nbsp;|&nbsp; [Source](https://github.com/rowanjove/INKREST) · [Releases](https://github.com/rowanjove/INKREST/releases)
 
@@ -33,9 +33,9 @@ A local-first long-form writing workspace designed for authors. Integrates outli
 
 ### [Browsory](https://github.com/rowanjove/Browsory)
 
-Local-first desktop application that incrementally imports browsing history from Chromium-based profiles (Chrome, Edge, Brave). Indexes visit logs locally with SQLite FTS5 for sub-millisecond search and timeline analytics without sending data upstream.
+Local-first desktop application for Chromium-based profiles (Chrome, Edge, Brave). Low-latency full-text search powered by SQLite FTS5 with temporal analytics. Core data remains local by default; network features are explicit and optional.
 
-[![Browsory Interface](https://raw.githubusercontent.com/rowanjove/Browsory/main/docs/screenshots/history-zh.png)](https://github.com/rowanjove/Browsory)
+[![Browsory](assets/hero-browsory.png)](https://github.com/rowanjove/Browsory)
 
 `Rust` · `Tauri` · `SQLite` · `FTS5` · `Windows` &nbsp;|&nbsp; [Source](https://github.com/rowanjove/Browsory) · [Releases](https://github.com/rowanjove/Browsory/releases)
 
@@ -43,9 +43,9 @@ Local-first desktop application that incrementally imports browsing history from
 
 ### [ProxyDuck](https://github.com/rowanjove/ProxyDuck)
 
-A Windows utility for per-application network routing. Intercepts and directs TCP, UDP, and DNS traffic of selected processes into a local SOCKS5 proxy, complete with a desktop GUI, live connection diagnostic logs, and a CLI daemon.
+Windows per-application network routing utility. Intercepts and directs TCP, UDP, and DNS traffic of selected processes into a local SOCKS5 proxy, complete with a desktop GUI and live connection inspect logs.
 
-[![ProxyDuck Desktop](https://raw.githubusercontent.com/rowanjove/ProxyDuck/main/docs/images/proxyduck-overview.png)](https://github.com/rowanjove/ProxyDuck)
+[![ProxyDuck](assets/hero-proxyduck.png)](https://github.com/rowanjove/ProxyDuck)
 
 `Rust` · `Windows` · `Desktop` · `CLI` &nbsp;|&nbsp; [Source](https://github.com/rowanjove/ProxyDuck) · [Releases](https://github.com/rowanjove/ProxyDuck/releases)
 
@@ -53,9 +53,9 @@ A Windows utility for per-application network routing. Intercepts and directs TC
 
 ### [Loomark](https://github.com/rowanjove/Loomark)
 
-Desktop research crawler and web archival platform. Leverages `curl_cffi` for fast static extraction and Playwright for dynamic JavaScript pages, featuring automated site monitoring, snapshot history, and local structured search.
+Desktop research crawler and web archival platform. Leverages `curl_cffi` for lightweight extraction and Playwright for dynamic pages, featuring scheduled site monitoring and structured local search.
 
-[![Loomark Dashboard](https://raw.githubusercontent.com/rowanjove/Loomark/main/docs/images/01_dashboard.png)](https://github.com/rowanjove/Loomark)
+[![Loomark](assets/hero-loomark.png)](https://github.com/rowanjove/Loomark)
 
 `Python` · `Playwright` · `curl_cffi` · `Tauri` &nbsp;|&nbsp; [Source](https://github.com/rowanjove/Loomark) · [Releases](https://github.com/rowanjove/Loomark/releases)
 
@@ -79,27 +79,16 @@ Focused utilities designed for specific friction points in daily personal comput
 
 ---
 
-## Currently Building
-
-Active focus areas under continuous iterative development:
-
-- **[INKREST](https://github.com/rowanjove/INKREST)** — Long-form memory consistency, plugin ecosystem architecture, and automated editorial workflows.
-- **[Browsory](https://github.com/rowanjove/Browsory)** — Unified Chromium-family schema migration, FTS5 query optimization, and offline personal analytics.
-- **[Loomark](https://github.com/rowanjove/Loomark)** — Incremental crawl policies, structured schema extractors, and automated task recovery.
-
----
-
 ## Principles
 
-- **Local-first**: Personal data remains strictly on local storage in transparent, non-proprietary formats (SQLite, Markdown, JSON).
-- **Useful before intelligent**: Reliable software engineering takes precedence over hype; AI serves as an augmentation layer rather than a gimmick.
-- **Small tools, clear purpose**: Clean boundaries, single responsibilities, and straightforward solving of concrete personal computing problems.
-- **Maintenance depth > Repository count**: Prioritize long-term polish, stability, test coverage, and documentation over publishing high volumes of transient repositories.
+- **Local-first**: Personal data stays under the user's control.
+- **Purpose-built**: Small tools should solve concrete problems clearly.
+- **Durable software**: Prefer maintainability, documentation and predictable behavior.
 
 ---
 
 <details>
-<summary><b>Labs & Experiments (探索性原型)</b></summary>
+<summary><b>Labs & Experiments</b></summary>
 <br>
 
 Exploratory prototypes and early concept verifications:
